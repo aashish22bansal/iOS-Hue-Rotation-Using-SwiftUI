@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1779724429AB9C04008E259C /* Hue_RotationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779724329AB9C04008E259C /* Hue_RotationApp.swift */; };
+		1779724629AB9C04008E259C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779724529AB9C04008E259C /* ContentView.swift */; };
+		1779724829AB9C06008E259C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1779724729AB9C06008E259C /* Assets.xcassets */; };
+		1779724C29AB9C06008E259C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1779724B29AB9C06008E259C /* Preview Assets.xcassets */; };
+		1779725629AB9C06008E259C /* Hue_RotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779725529AB9C06008E259C /* Hue_RotationTests.swift */; };
+		1779726029AB9C06008E259C /* Hue_RotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779725F29AB9C06008E259C /* Hue_RotationUITests.swift */; };
+		1779726229AB9C06008E259C /* Hue_RotationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779726129AB9C06008E259C /* Hue_RotationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1779725229AB9C06008E259C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1779723829AB9C04008E259C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1779723F29AB9C04008E259C;
+			remoteInfo = "Hue Rotation";
+		};
+		1779725C29AB9C06008E259C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1779723829AB9C04008E259C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1779723F29AB9C04008E259C;
+			remoteInfo = "Hue Rotation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1779724029AB9C04008E259C /* Hue Rotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hue Rotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1779724329AB9C04008E259C /* Hue_RotationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue_RotationApp.swift; sourceTree = "<group>"; };
+		1779724529AB9C04008E259C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1779724729AB9C06008E259C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1779724929AB9C06008E259C /* Hue_Rotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hue_Rotation.entitlements; sourceTree = "<group>"; };
+		1779724B29AB9C06008E259C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1779725129AB9C06008E259C /* Hue RotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hue RotationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1779725529AB9C06008E259C /* Hue_RotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue_RotationTests.swift; sourceTree = "<group>"; };
+		1779725B29AB9C06008E259C /* Hue RotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hue RotationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1779725F29AB9C06008E259C /* Hue_RotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue_RotationUITests.swift; sourceTree = "<group>"; };
+		1779726129AB9C06008E259C /* Hue_RotationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hue_RotationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1779723D29AB9C04008E259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779724E29AB9C06008E259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779725829AB9C06008E259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1779723729AB9C04008E259C = {
+			isa = PBXGroup;
+			children = (
+				1779724229AB9C04008E259C /* Hue Rotation */,
+				1779725429AB9C06008E259C /* Hue RotationTests */,
+				1779725E29AB9C06008E259C /* Hue RotationUITests */,
+				1779724129AB9C04008E259C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1779724129AB9C04008E259C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1779724029AB9C04008E259C /* Hue Rotation.app */,
+				1779725129AB9C06008E259C /* Hue RotationTests.xctest */,
+				1779725B29AB9C06008E259C /* Hue RotationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1779724229AB9C04008E259C /* Hue Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				1779724329AB9C04008E259C /* Hue_RotationApp.swift */,
+				1779724529AB9C04008E259C /* ContentView.swift */,
+				1779724729AB9C06008E259C /* Assets.xcassets */,
+				1779724929AB9C06008E259C /* Hue_Rotation.entitlements */,
+				1779724A29AB9C06008E259C /* Preview Content */,
+			);
+			path = "Hue Rotation";
+			sourceTree = "<group>";
+		};
+		1779724A29AB9C06008E259C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1779724B29AB9C06008E259C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1779725429AB9C06008E259C /* Hue RotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1779725529AB9C06008E259C /* Hue_RotationTests.swift */,
+			);
+			path = "Hue RotationTests";
+			sourceTree = "<group>";
+		};
+		1779725E29AB9C06008E259C /* Hue RotationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1779725F29AB9C06008E259C /* Hue_RotationUITests.swift */,
+				1779726129AB9C06008E259C /* Hue_RotationUITestsLaunchTests.swift */,
+			);
+			path = "Hue RotationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1779723F29AB9C04008E259C /* Hue Rotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1779726529AB9C06008E259C /* Build configuration list for PBXNativeTarget "Hue Rotation" */;
+			buildPhases = (
+				1779723C29AB9C04008E259C /* Sources */,
+				1779723D29AB9C04008E259C /* Frameworks */,
+				1779723E29AB9C04008E259C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hue Rotation";
+			productName = "Hue Rotation";
+			productReference = 1779724029AB9C04008E259C /* Hue Rotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1779725029AB9C06008E259C /* Hue RotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1779726829AB9C06008E259C /* Build configuration list for PBXNativeTarget "Hue RotationTests" */;
+			buildPhases = (
+				1779724D29AB9C06008E259C /* Sources */,
+				1779724E29AB9C06008E259C /* Frameworks */,
+				1779724F29AB9C06008E259C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1779725329AB9C06008E259C /* PBXTargetDependency */,
+			);
+			name = "Hue RotationTests";
+			productName = "Hue RotationTests";
+			productReference = 1779725129AB9C06008E259C /* Hue RotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1779725A29AB9C06008E259C /* Hue RotationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1779726B29AB9C06008E259C /* Build configuration list for PBXNativeTarget "Hue RotationUITests" */;
+			buildPhases = (
+				1779725729AB9C06008E259C /* Sources */,
+				1779725829AB9C06008E259C /* Frameworks */,
+				1779725929AB9C06008E259C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1779725D29AB9C06008E259C /* PBXTargetDependency */,
+			);
+			name = "Hue RotationUITests";
+			productName = "Hue RotationUITests";
+			productReference = 1779725B29AB9C06008E259C /* Hue RotationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1779723829AB9C04008E259C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1779723F29AB9C04008E259C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1779725029AB9C06008E259C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1779723F29AB9C04008E259C;
+					};
+					1779725A29AB9C06008E259C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1779723F29AB9C04008E259C;
+					};
+				};
+			};
+			buildConfigurationList = 1779723B29AB9C04008E259C /* Build configuration list for PBXProject "Hue Rotation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1779723729AB9C04008E259C;
+			productRefGroup = 1779724129AB9C04008E259C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1779723F29AB9C04008E259C /* Hue Rotation */,
+				1779725029AB9C06008E259C /* Hue RotationTests */,
+				1779725A29AB9C06008E259C /* Hue RotationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1779723E29AB9C04008E259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779724C29AB9C06008E259C /* Preview Assets.xcassets in Resources */,
+				1779724829AB9C06008E259C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779724F29AB9C06008E259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779725929AB9C06008E259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1779723C29AB9C04008E259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779724629AB9C04008E259C /* ContentView.swift in Sources */,
+				1779724429AB9C04008E259C /* Hue_RotationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779724D29AB9C06008E259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779725629AB9C06008E259C /* Hue_RotationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779725729AB9C06008E259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779726029AB9C06008E259C /* Hue_RotationUITests.swift in Sources */,
+				1779726229AB9C06008E259C /* Hue_RotationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1779725329AB9C06008E259C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1779723F29AB9C04008E259C /* Hue Rotation */;
+			targetProxy = 1779725229AB9C06008E259C /* PBXContainerItemProxy */;
+		};
+		1779725D29AB9C06008E259C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1779723F29AB9C04008E259C /* Hue Rotation */;
+			targetProxy = 1779725C29AB9C06008E259C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1779726329AB9C06008E259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1779726429AB9C06008E259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1779726629AB9C06008E259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hue Rotation/Hue_Rotation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hue Rotation/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Hue-Rotation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1779726729AB9C06008E259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hue Rotation/Hue_Rotation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hue Rotation/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Hue-Rotation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1779726929AB9C06008E259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Hue-RotationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hue Rotation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hue Rotation";
+			};
+			name = Debug;
+		};
+		1779726A29AB9C06008E259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Hue-RotationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hue Rotation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hue Rotation";
+			};
+			name = Release;
+		};
+		1779726C29AB9C06008E259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Hue-RotationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hue Rotation";
+			};
+			name = Debug;
+		};
+		1779726D29AB9C06008E259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Hue-RotationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hue Rotation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1779723B29AB9C04008E259C /* Build configuration list for PBXProject "Hue Rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779726329AB9C06008E259C /* Debug */,
+				1779726429AB9C06008E259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1779726529AB9C06008E259C /* Build configuration list for PBXNativeTarget "Hue Rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779726629AB9C06008E259C /* Debug */,
+				1779726729AB9C06008E259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1779726829AB9C06008E259C /* Build configuration list for PBXNativeTarget "Hue RotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779726929AB9C06008E259C /* Debug */,
+				1779726A29AB9C06008E259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1779726B29AB9C06008E259C /* Build configuration list for PBXNativeTarget "Hue RotationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779726C29AB9C06008E259C /* Debug */,
+				1779726D29AB9C06008E259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1779723829AB9C04008E259C /* Project object */;
+}
